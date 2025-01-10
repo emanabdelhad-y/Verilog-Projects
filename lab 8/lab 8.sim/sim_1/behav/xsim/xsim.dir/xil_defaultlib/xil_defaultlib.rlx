@@ -1,0 +1,16 @@
+0.7
+2020.2
+Apr 18 2022
+16:05:34
+C:/Users/emanessam26/Desktop/verilog/DFF.v,1731433785,verilog,,C:/Users/emanessam26/Desktop/verilog/lab 8/lab 8.srcs/sources_1/new/DigitalLock.v,,DFF,,,,,,,,
+C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/sources_1/new/BinaryCounter.v,1731622915,verilog,,C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/sources_1/new/ClockDivider.v,,counterModN,,,,,,,,
+C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/sources_1/new/ClockDivider.v,1731429737,verilog,,C:/Users/emanessam26/Desktop/verilog/DFF.v,,clockDivider,,,,,,,,
+C:/Users/emanessam26/Desktop/verilog/lab 8/lab 8.sim/sim_1/behav/xsim/glbl.v,1649976174,verilog,,,,glbl,,,,,,,,
+C:/Users/emanessam26/Desktop/verilog/lab 8/lab 8.srcs/sim_1/new/digital_TB.v,1731449410,verilog,,,,digital_TB,,,,,,,,
+C:/Users/emanessam26/Desktop/verilog/lab 8/lab 8.srcs/sim_1/new/risingEdge_tb.v,1732542059,verilog,,,,risingEdge_tb,,,,,,,,
+C:/Users/emanessam26/Desktop/verilog/lab 8/lab 8.srcs/sources_1/new/DigitalLock.v,1731449494,verilog,,C:/Users/emanessam26/Desktop/verilog/lab 8/lab 8.srcs/sources_1/new/debouncer.v,,DigitalLock,,,,,,,,
+C:/Users/emanessam26/Desktop/verilog/lab 8/lab 8.srcs/sources_1/new/Mealy.v,1732542082,verilog,,C:/Users/emanessam26/Desktop/verilog/lab 8/lab 8.srcs/sim_1/new/risingEdge_tb.v,,Mealy,,,,,,,,
+C:/Users/emanessam26/Desktop/verilog/lab 8/lab 8.srcs/sources_1/new/debouncer.v,1731427808,verilog,,C:/Users/emanessam26/Desktop/verilog/lab 8/lab 8.srcs/sources_1/new/pushbuttonDetector.v,,debouncer,,,,,,,,
+C:/Users/emanessam26/Desktop/verilog/lab 8/lab 8.srcs/sources_1/new/pushbuttonDetector.v,1731446899,verilog,,C:/Users/emanessam26/Desktop/verilog/lab 8/lab 8.srcs/sources_1/new/risingEdge.v,,pushbuttonDetector,,,,,,,,
+C:/Users/emanessam26/Desktop/verilog/lab 8/lab 8.srcs/sources_1/new/risingEdge.v,1731430613,verilog,,C:/Users/emanessam26/Desktop/verilog/synchronizerCircuit.v,,risingEdge,,,,,,,,
+C:/Users/emanessam26/Desktop/verilog/synchronizerCircuit.v,1731431662,verilog,,C:/Users/emanessam26/Desktop/verilog/lab 8/lab 8.srcs/sim_1/new/digital_TB.v,,synchronizerCircuit,,,,,,,,

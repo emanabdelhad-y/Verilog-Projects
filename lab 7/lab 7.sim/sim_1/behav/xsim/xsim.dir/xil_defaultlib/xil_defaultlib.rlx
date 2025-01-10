@@ -1,0 +1,17 @@
+0.7
+2020.2
+Apr 18 2022
+16:05:34
+C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.sim/sim_1/behav/xsim/glbl.v,1649976174,verilog,,,,glbl,,,,,,,,
+C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/sim_1/new/BinarycounterTestbench.v,1730217351,verilog,,C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/sim_1/new/updown_tb.v,,counterModN_testbench,,,,,,,,
+,,,,,,updown_tb,,,,,,,,
+,,,,C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/sim_1/new/BinarycounterTestbench.v,,BCDTimeClock,,,,,,,,
+C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/sources_1/new/BinaryCounter.v,1731622915,verilog,,C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/sources_1/new/ClockDivider.v,,counterModN,,,,,,,,
+C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/sources_1/new/ClockDivider.v,1731429737,verilog,,C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/sources_1/new/mod10counter.v,,clockDivider,,,,,,,,
+C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/sources_1/new/DigitalClock.v,1731613408,verilog,,C:/Users/emanessam26/Desktop/verilog/lab5/lab5.srcs/sources_1/new/sevenSegUsingBehavioral.v,,DigitalClock,,,,,,,,
+C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/sources_1/new/LedClock.v,1731696741,verilog,,C:/Users/emanessam26/Desktop/verilog/lab5/lab5.srcs/sources_1/new/sevenSegUsingBehavioral.v,,LedClock,,,,,,,,
+C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/sources_1/new/mod10counter.v,1731615332,verilog,,C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/sources_1/new/mod6counter.v,,mod10counter,,,,,,,,
+C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/sources_1/new/mod6counter.v,1731615419,verilog,,C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/sources_1/new/LedClock.v,,mod6counter,,,,,,,,
+C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/sources_1/new/secsMinsCounter.v,1731620417,verilog,,C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/sources_1/new/upDown.v,,secsMinsCounter,,,,,,,,
+C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/sources_1/new/upDown.v,1731703609,verilog,,C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/sources_1/new/BCDTimeClock.v,,upDown,,,,,,,,
+C:/Users/emanessam26/Desktop/verilog/lab5/lab5.srcs/sources_1/new/sevenSegUsingBehavioral.v,1731703786,verilog,,C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/sources_1/new/secsMinsCounter.v,,sevenSegUsingBehavioral,,,,,,,,

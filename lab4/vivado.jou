@@ -1,0 +1,128 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Mon Oct 14 22:34:34 2024
+# Process ID: 19744
+# Current directory: C:/Users/emanessam26/Desktop/verilog/lab4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10184 C:\Users\emanessam26\Desktop\verilog\lab4\lab4.xpr
+# Log file: C:/Users/emanessam26/Desktop/verilog/lab4/vivado.log
+# Journal file: C:/Users/emanessam26/Desktop/verilog/lab4\vivado.jou
+# Running On: CSE-P07-2168-47, OS: Windows, CPU Frequency: 3696 MHz, CPU Physical cores: 8, Host memory: 34020 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/emanessam26/Desktop/verilog/lab4/lab4.xpr
+update_compile_order -fileset sources_1
+close [ open C:/Users/emanessam26/Desktop/verilog/lab4/lab4.srcs/sources_1/new/Dec4to16.v w ]
+add_files C:/Users/emanessam26/Desktop/verilog/lab4/lab4.srcs/sources_1/new/Dec4to16.v
+update_compile_order -fileset sources_1
+set_property is_enabled false [get_files  C:/Users/emanessam26/Desktop/verilog/lab4/lab4.srcs/sources_1/new/Dec4to16.v]
+set_property is_enabled true [get_files  C:/Users/emanessam26/Desktop/verilog/lab4/lab4.srcs/sources_1/new/Dec4to16.v]
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config C:/Users/emanessam26/Desktop/verilog/lab4/testbench_1_behav.wcfg
+source MUX4to1.tcl
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top Dec4to16 [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+launch_simulation
+close [ open C:/Users/emanessam26/Desktop/verilog/lab4/lab4.srcs/constrs_1/new/4to16DecConstraint.xdc w ]
+add_files -fileset constrs_1 C:/Users/emanessam26/Desktop/verilog/lab4/lab4.srcs/constrs_1/new/4to16DecConstraint.xdc
+set_property target_constrs_file C:/Users/emanessam26/Desktop/verilog/lab4/lab4.srcs/constrs_1/new/4to16DecConstraint.xdc [current_fileset -constrset]
+export_ip_user_files -of_objects  [get_files C:/Users/emanessam26/Desktop/verilog/lab4/lab4.srcs/constrs_1/new/4to16DecConstraint.xdc] -no_script -reset -force -quiet
+remove_files  -fileset constrs_1 C:/Users/emanessam26/Desktop/verilog/lab4/lab4.srcs/constrs_1/new/4to16DecConstraint.xdc
+file delete -force C:/Users/emanessam26/Desktop/verilog/lab4/lab4.srcs/constrs_1/new/4to16DecConstraint.xdc
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/emanessam26/Desktop/verilog/lab4/lab4.srcs/sim_1/new/testbench4To16Dec.v w ]
+add_files -fileset sim_1 C:/Users/emanessam26/Desktop/verilog/lab4/lab4.srcs/sim_1/new/testbench4To16Dec.v
+update_compile_order -fileset sim_1
+launch_simulation
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top testbench_1 [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top testbench4To16Dec [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+set_property is_enabled false [get_files  C:/Users/emanessam26/Desktop/verilog/lab4/lab4.srcs/constrs_1/new/module_1_constraint.xdc]
+launch_simulation
+launch_simulation
+create_project lab4Question3 C:/Users/emanessam26/Desktop/verilog/lab4Question3 -part xc7a35tcpg236-1
+set_property board_part digilentinc.com:basys3:part0:1.2 [current_project]
+file mkdir C:/Users/emanessam26/Desktop/verilog/lab4Question3/lab4Question3.srcs/sources_1/new
+close [ open C:/Users/emanessam26/Desktop/verilog/lab4Question3/lab4Question3.srcs/sources_1/new/Dec4To16.v w ]
+add_files C:/Users/emanessam26/Desktop/verilog/lab4Question3/lab4Question3.srcs/sources_1/new/Dec4To16.v
+update_compile_order -fileset sources_1
+current_project lab4
+current_project lab4Question3
+close [ open C:/Users/emanessam26/Desktop/verilog/lab4Question3/lab4Question3.srcs/sources_1/new/Dec2To4.v w ]
+add_files C:/Users/emanessam26/Desktop/verilog/lab4Question3/lab4Question3.srcs/sources_1/new/Dec2To4.v
+current_project lab4
+current_project lab4Question3
+update_compile_order -fileset sources_1
+current_project lab4
+current_project lab4Question3
+update_compile_order -fileset sources_1
+current_project lab4
+file mkdir C:/Users/emanessam26/Desktop/verilog/lab4Question3/lab4Question3.srcs/sim_1/new
+current_project lab4Question3
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/emanessam26/Desktop/verilog/lab4Question3/lab4Question3.srcs/sim_1/new/Dec2To4Testbench.v w ]
+add_files -fileset sim_1 C:/Users/emanessam26/Desktop/verilog/lab4Question3/lab4Question3.srcs/sim_1/new/Dec2To4Testbench.v
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top Dec2To4Testbench [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+launch_simulation
+update_compile_order -fileset sim_1
+current_project lab4
+current_project lab4Question3
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+current_project lab4
+current_project lab4Question3
+launch_simulation
+close_project
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top Dec4to16 [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top testbench4To16Dec [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top Dec4to16_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+update_compile_order -fileset sim_1

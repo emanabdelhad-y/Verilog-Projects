@@ -1,0 +1,54 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Thu Oct 24 13:45:13 2024
+# Process ID: 12548
+# Current directory: C:/Users/emanessam26/Desktop/lab5report
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15452 C:\Users\emanessam26\Desktop\lab5report\lab5report.xpr
+# Log file: C:/Users/emanessam26/Desktop/lab5report/vivado.log
+# Journal file: C:/Users/emanessam26/Desktop/lab5report\vivado.jou
+# Running On: CSE-P07-2168-47, OS: Windows, CPU Frequency: 3696 MHz, CPU Physical cores: 8, Host memory: 34020 MB
+#-----------------------------------------------------------
+start_guioopen_project C:/Users/emanessam26/Desktop/lab5report/lab5report.xpruupdate_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top Question2 [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top q2testbench [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+open_wave_config C:/Users/emanessam26/Desktop/lab5report/tb_question3_behav.wcfg
+source q2testbench.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/emanessam26/Desktop/lab5report/tb_question3_behav.wcfg
+source q2testbench.tcl
+close_sim
+set_property is_enabled false [get_files  C:/Users/emanessam26/Desktop/lab5report/tb_question3_behav.wcfg]
+launch_simulation
+source q2testbench.tcl
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top question3 [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_question3 [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+launch_simulation
+source tb_question3.tcl
+close_sim

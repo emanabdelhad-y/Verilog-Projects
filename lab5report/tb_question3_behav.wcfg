@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_question3_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_question3" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="37.064 ns"></ZoomEndTime>
+      <Cursor1Time time="10.979 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="144"></NameColumnWidth>
+      <ValueColumnWidth column_width="69"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="6" />
+   <wvobject fp_name="/tb_question3/sel" type="array">
+      <obj_property name="ElementShortName">sel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">sel[1:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_question3/display0" type="array">
+      <obj_property name="ElementShortName">display0[6:0]</obj_property>
+      <obj_property name="ObjectShortName">display0[6:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_question3/display1" type="array">
+      <obj_property name="ElementShortName">display1[6:0]</obj_property>
+      <obj_property name="ObjectShortName">display1[6:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_question3/display2" type="array">
+      <obj_property name="ElementShortName">display2[6:0]</obj_property>
+      <obj_property name="ObjectShortName">display2[6:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_question3/display3" type="array">
+      <obj_property name="ElementShortName">display3[6:0]</obj_property>
+      <obj_property name="ObjectShortName">display3[6:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_question3/anode_active" type="array">
+      <obj_property name="ElementShortName">anode_active[3:0]</obj_property>
+      <obj_property name="ObjectShortName">anode_active[3:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+</wave_config>

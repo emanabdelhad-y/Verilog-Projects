@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Tue Nov  5 18:53:51 2024
+# Process ID: 21560
+# Current directory: C:/Users/emanessam26/Desktop/verilog/Quiz/Quiz.runs/synth_1
+# Command line: vivado.exe -log series.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source series.tcl
+# Log file: C:/Users/emanessam26/Desktop/verilog/Quiz/Quiz.runs/synth_1/series.vds
+# Journal file: C:/Users/emanessam26/Desktop/verilog/Quiz/Quiz.runs/synth_1\vivado.jou
+# Running On: CSE-P07-2168-47, OS: Windows, CPU Frequency: 3696 MHz, CPU Physical cores: 8, Host memory: 34020 MB
+#-----------------------------------------------------------
+source series.tcl -notrace

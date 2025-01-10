@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Wed Oct 23 17:43:37 2024
+# Process ID: 12376
+# Current directory: C:/Users/emanessam26/Desktop/verilog/half_adder
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3960 C:\Users\emanessam26\Desktop\verilog\half_adder\half_adder.xpr
+# Log file: C:/Users/emanessam26/Desktop/verilog/half_adder/vivado.log
+# Journal file: C:/Users/emanessam26/Desktop/verilog/half_adder\vivado.jou
+# Running On: CSE-P07-2168-47, OS: Windows, CPU Frequency: 3696 MHz, CPU Physical cores: 8, Host memory: 34020 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/emanessam26/Desktop/verilog/half_adder/half_adder.xpr
+launch_simulation
+source hadd_tb.tcl

@@ -1,0 +1,427 @@
+
+*** Running vivado
+    with args -log BCDTimeClock.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source BCDTimeClock.tcl
+
+
+
+****** Vivado v2022.1 (64-bit)
+  **** SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+  **** IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source BCDTimeClock.tcl -notrace
+Command: synth_design -top BCDTimeClock -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 1328
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1286.207 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'BCDTimeClock' [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/sources_1/new/BCDTimeClock.v:23]
+INFO: [Synth 8-6157] synthesizing module 'LedClock' [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/sources_1/new/LedClock.v:23]
+INFO: [Synth 8-6157] synthesizing module 'clockDivider' [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/sources_1/new/ClockDivider.v:23]
+	Parameter n bound to: 50000000 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'counterModN' [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/sources_1/new/BinaryCounter.v:23]
+	Parameter x bound to: 32 - type: integer 
+	Parameter n bound to: 50000000 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'counterModN' (0#1) [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/sources_1/new/BinaryCounter.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'clockDivider' (0#1) [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/sources_1/new/ClockDivider.v:23]
+INFO: [Synth 8-6157] synthesizing module 'mod10counter' [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/sources_1/new/mod10counter.v:23]
+INFO: [Synth 8-6157] synthesizing module 'counterModN__parameterized0' [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/sources_1/new/BinaryCounter.v:23]
+	Parameter x bound to: 4 - type: integer 
+	Parameter n bound to: 10 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'counterModN__parameterized0' (0#1) [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/sources_1/new/BinaryCounter.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'mod10counter' (0#1) [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/sources_1/new/mod10counter.v:23]
+INFO: [Synth 8-6157] synthesizing module 'mod6counter' [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/sources_1/new/mod6counter.v:22]
+INFO: [Synth 8-6157] synthesizing module 'counterModN__parameterized1' [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/sources_1/new/BinaryCounter.v:23]
+	Parameter x bound to: 3 - type: integer 
+	Parameter n bound to: 6 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'counterModN__parameterized1' (0#1) [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/sources_1/new/BinaryCounter.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'mod6counter' (0#1) [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/sources_1/new/mod6counter.v:22]
+WARNING: [Synth 8-567] referenced signal 'rst' should be on the sensitivity list [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/sources_1/new/LedClock.v:41]
+WARNING: [Synth 8-567] referenced signal 'en' should be on the sensitivity list [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/sources_1/new/LedClock.v:41]
+INFO: [Synth 8-6155] done synthesizing module 'LedClock' (0#1) [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/sources_1/new/LedClock.v:23]
+INFO: [Synth 8-6157] synthesizing module 'sevenSegUsingBehavioral' [C:/Users/emanessam26/Desktop/verilog/lab5/lab5.srcs/sources_1/new/sevenSegUsingBehavioral.v:23]
+INFO: [Synth 8-6157] synthesizing module 'clockDivider__parameterized0' [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/sources_1/new/ClockDivider.v:23]
+	Parameter n bound to: 250000 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'counterModN__parameterized2' [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/sources_1/new/BinaryCounter.v:23]
+	Parameter x bound to: 32 - type: integer 
+	Parameter n bound to: 250000 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'counterModN__parameterized2' (0#1) [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/sources_1/new/BinaryCounter.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'clockDivider__parameterized0' (0#1) [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/sources_1/new/ClockDivider.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/emanessam26/Desktop/verilog/lab5/lab5.srcs/sources_1/new/sevenSegUsingBehavioral.v:68]
+INFO: [Synth 8-6155] done synthesizing module 'sevenSegUsingBehavioral' (0#1) [C:/Users/emanessam26/Desktop/verilog/lab5/lab5.srcs/sources_1/new/sevenSegUsingBehavioral.v:23]
+WARNING: [Synth 8-567] referenced signal 'secUnits' should be on the sensitivity list [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/sources_1/new/BCDTimeClock.v:34]
+WARNING: [Synth 8-567] referenced signal 'secTens' should be on the sensitivity list [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/sources_1/new/BCDTimeClock.v:34]
+WARNING: [Synth 8-567] referenced signal 'minUnits' should be on the sensitivity list [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/sources_1/new/BCDTimeClock.v:34]
+WARNING: [Synth 8-567] referenced signal 'minTens' should be on the sensitivity list [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/sources_1/new/BCDTimeClock.v:34]
+INFO: [Synth 8-6155] done synthesizing module 'BCDTimeClock' (0#1) [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/sources_1/new/BCDTimeClock.v:23]
+WARNING: [Synth 8-3848] Net select in module/entity BCDTimeClock does not have driver. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/sources_1/new/BCDTimeClock.v:28]
+WARNING: [Synth 8-7129] Port sel[0] in module sevenSegUsingBehavioral is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sel[1] in module sevenSegUsingBehavioral is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1286.207 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1286.207 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1286.207 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1286.207 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/clockDivider.xdc]
+WARNING: [Vivado 12-584] No ports matched 'rst'. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/clockDivider.xdc:4]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/clockDivider.xdc:4]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rst'. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/clockDivider.xdc:5]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/clockDivider.xdc:5]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'clk_out'. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/clockDivider.xdc:7]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/clockDivider.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'clk_out'. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/clockDivider.xdc:8]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/clockDivider.xdc:8]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/clockDivider.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/clockDivider.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/BCDTimeClock_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/BCDTimeClock_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/mod10counter.xdc]
+WARNING: [Vivado 12-584] No ports matched 'rst'. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/mod10counter.xdc:4]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/mod10counter.xdc:4]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rst'. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/mod10counter.xdc:5]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/mod10counter.xdc:5]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'count[3]'. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/mod10counter.xdc:7]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/mod10counter.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'count[3]'. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/mod10counter.xdc:8]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/mod10counter.xdc:8]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'count[2]'. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/mod10counter.xdc:10]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/mod10counter.xdc:10]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'count[2]'. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/mod10counter.xdc:11]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/mod10counter.xdc:11]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'count[1]'. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/mod10counter.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/mod10counter.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'count[1]'. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/mod10counter.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/mod10counter.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'count[0]'. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/mod10counter.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/mod10counter.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'count[0]'. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/mod10counter.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/mod10counter.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/mod10counter.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/mod10counter.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/BCDTimeClock_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/BCDTimeClock_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/LedClock.xdc]
+WARNING: [Vivado 12-584] No ports matched 'rst'. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/LedClock.xdc:4]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/LedClock.xdc:4]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rst'. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/LedClock.xdc:5]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/LedClock.xdc:5]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'count[0]'. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/LedClock.xdc:7]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/LedClock.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'count[0]'. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/LedClock.xdc:8]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/LedClock.xdc:8]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'count[1]'. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/LedClock.xdc:10]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/LedClock.xdc:10]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'count[1]'. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/LedClock.xdc:11]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/LedClock.xdc:11]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'count[2]'. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/LedClock.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/LedClock.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'count[2]'. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/LedClock.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/LedClock.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'count[3]'. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/LedClock.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/LedClock.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'count[3]'. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/LedClock.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/LedClock.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'count[4]'. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/LedClock.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/LedClock.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'count[4]'. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/LedClock.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/LedClock.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'count[5]'. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/LedClock.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/LedClock.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'count[5]'. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/LedClock.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/LedClock.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'count[6]'. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/LedClock.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/LedClock.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'count[6]'. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/LedClock.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/LedClock.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'count[7]'. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/LedClock.xdc:28]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/LedClock.xdc:28]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'count[7]'. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/LedClock.xdc:29]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/LedClock.xdc:29]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'count[8]'. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/LedClock.xdc:31]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/LedClock.xdc:31]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'count[8]'. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/LedClock.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/LedClock.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'count[9]'. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/LedClock.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/LedClock.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'count[9]'. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/LedClock.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/LedClock.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'count[10]'. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/LedClock.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/LedClock.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'count[10]'. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/LedClock.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/LedClock.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'count[11]'. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/LedClock.xdc:40]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/LedClock.xdc:40]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'count[11]'. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/LedClock.xdc:41]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/LedClock.xdc:41]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'count[12]'. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/LedClock.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/LedClock.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'count[12]'. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/LedClock.xdc:44]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/LedClock.xdc:44]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'count[13]'. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/LedClock.xdc:46]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/LedClock.xdc:46]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'count[13]'. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/LedClock.xdc:47]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/LedClock.xdc:47]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/LedClock.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/LedClock.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/BCDTimeClock_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/BCDTimeClock_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/BCDTimeClockConstraint.xdc]
+Finished Parsing XDC File [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/BCDTimeClockConstraint.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/constrs_1/new/BCDTimeClockConstraint.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/BCDTimeClock_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/BCDTimeClock_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1307.473 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1307.473 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1307.473 ; gain = 21.266
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1307.473 ; gain = 21.266
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1307.473 ; gain = 21.266
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'anode_active_reg' in module 'sevenSegUsingBehavioral'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                            00001 |                             1111
+                 iSTATE0 |                            00010 |                             1110
+                 iSTATE1 |                            00100 |                             1101
+                 iSTATE2 |                            01000 |                             1011
+                 iSTATE3 |                            10000 |                             0111
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'anode_active_reg' using encoding 'one-hot' in module 'sevenSegUsingBehavioral'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1307.473 ; gain = 21.266
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 2     
+	   2 Input    4 Bit       Adders := 2     
+	   2 Input    3 Bit       Adders := 2     
++---Registers : 
+	               32 Bit    Registers := 2     
+	               14 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 2     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 2     
+	   5 Input    5 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 3     
+	   5 Input    4 Bit        Muxes := 2     
+	   2 Input    3 Bit        Muxes := 2     
+	   2 Input    1 Bit        Muxes := 1     
+	   5 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 1307.473 ; gain = 21.266
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 1307.473 ; gain = 21.266
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 1307.473 ; gain = 21.266
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1307.473 ; gain = 21.266
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1307.473 ; gain = 21.266
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1307.473 ; gain = 21.266
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1307.473 ; gain = 21.266
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1307.473 ; gain = 21.266
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1307.473 ; gain = 21.266
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1307.473 ; gain = 21.266
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    16|
+|3     |LUT1   |     4|
+|4     |LUT2   |     2|
+|5     |LUT3   |     2|
+|6     |LUT4   |    22|
+|7     |LUT5   |    82|
+|8     |LUT6   |     9|
+|9     |MUXF7  |     3|
+|10    |FDCE   |    98|
+|11    |FDPE   |     1|
+|12    |IBUF   |     2|
+|13    |OBUF   |    11|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1307.473 ; gain = 21.266
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:19 ; elapsed = 00:00:27 . Memory (MB): peak = 1307.473 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1307.473 ; gain = 21.266
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1307.473 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 19 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1307.473 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: 51d099f2
+INFO: [Common 17-83] Releasing license: Synthesis
+43 Infos, 54 Warnings, 44 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 1307.473 ; gain = 21.266
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+INFO: [Common 17-1381] The checkpoint 'C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.runs/synth_1/BCDTimeClock.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file BCDTimeClock_utilization_synth.rpt -pb BCDTimeClock_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Nov 15 22:53:31 2024...

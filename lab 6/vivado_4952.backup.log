@@ -1,0 +1,537 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Sun Oct 27 11:30:57 2024
+# Process ID: 4952
+# Current directory: C:/Users/emanessam26/Desktop/verilog/lab 6
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15216 C:\Users\emanessam26\Desktop\verilog\lab 6\lab 6.xpr
+# Log file: C:/Users/emanessam26/Desktop/verilog/lab 6/vivado.log
+# Journal file: C:/Users/emanessam26/Desktop/verilog/lab 6\vivado.jou
+# Running On: CSE-P07-2168-47, OS: Windows, CPU Frequency: 3696 MHz, CPU Physical cores: 8, Host memory: 34020 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.xpr}
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.1/data/ip'.
+open_project: Time (s): cpu = 00:00:23 ; elapsed = 00:00:08 . Memory (MB): peak = 1222.395 ; gain = 0.000
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'csa8_testbench'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'csa8_testbench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj csa8_testbench_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot csa8_testbench_behav xil_defaultlib.csa8_testbench xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot csa8_testbench_behav xil_defaultlib.csa8_testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'cin' [C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.srcs/sources_1/new/csa_8.v:29]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'cin' [C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.srcs/sources_1/new/csa_8.v:30]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "csa8_testbench_behav -key {Behavioral:sim_1:Functional:csa8_testbench} -tclbatch {csa8_testbench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source csa8_testbench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1s
+$finish called at time : 1310720 ns : File "C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.srcs/sim_1/new/csa8_testbench.v" Line 63
+xsim: Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 1222.395 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'csa8_testbench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1s
+launch_simulation: Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1222.395 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close [ open {C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.srcs/sources_1/new/addsub_4.v} w ]
+add_files {{C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.srcs/sources_1/new/addsub_4.v}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.srcs/sources_1/new/rca_4.v} w ]
+add_files {{C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.srcs/sources_1/new/rca_4.v}}
+update_compile_order -fileset sources_1
+set_property top rca_8 [current_fileset]
+set_property top rca4_testbench [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+set_property top rca_4 [current_fileset]
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'rca4_testbench'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'rca4_testbench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj rca4_testbench_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot rca4_testbench_behav xil_defaultlib.rca4_testbench xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot rca4_testbench_behav xil_defaultlib.rca4_testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.full_adder_1
+Compiling module xil_defaultlib.rca_4
+Compiling module xil_defaultlib.rca4_testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot rca4_testbench_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "rca4_testbench_behav -key {Behavioral:sim_1:Functional:rca4_testbench} -tclbatch {rca4_testbench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source rca4_testbench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1s
+$finish called at time : 5120 ns : File "C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.srcs/sim_1/new/testbench.v" Line 48
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'rca4_testbench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1s
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 1222.395 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close [ open {C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.srcs/sources_1/new/mux2to1.v} w ]
+add_files {{C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.srcs/sources_1/new/mux2to1.v}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.srcs/constrs_1/new/addsubtestbench.xdc} w ]
+add_files -fileset constrs_1 {{C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.srcs/constrs_1/new/addsubtestbench.xdc}}
+set_property top addsub_4 [current_fileset]
+update_compile_order -fileset sources_1
+reset_run synth_1
+INFO: [Project 1-1160] Copying file C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.runs/synth_1/csa_8.dcp to C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.srcs/utils_1/imports/synth_1 and adding it to utils fileset
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sun Oct 27 12:39:31 2024] Launched synth_1...
+Run output will be captured here: C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.runs/synth_1/runme.log
+[Sun Oct 27 12:39:31 2024] Launched impl_1...
+Run output will be captured here: C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sun Oct 27 12:45:20 2024] Launched synth_1...
+Run output will be captured here: C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.runs/synth_1/runme.log
+[Sun Oct 27 12:45:20 2024] Launched impl_1...
+Run output will be captured here: C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.runs/impl_1/runme.log
+set_property top addsub_4 [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sun Oct 27 12:46:02 2024] Launched synth_1...
+Run output will be captured here: C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.runs/synth_1/runme.log
+[Sun Oct 27 12:46:02 2024] Launched impl_1...
+Run output will be captured here: C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.runs/impl_1/runme.log
+set_property target_constrs_file {C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.srcs/constrs_1/new/addsubtestbench.xdc} [current_fileset -constrset]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sun Oct 27 12:46:27 2024] Launched synth_1...
+Run output will be captured here: C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.runs/synth_1/runme.log
+[Sun Oct 27 12:46:27 2024] Launched impl_1...
+Run output will be captured here: C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.runs/impl_1/runme.log
+export_ip_user_files -of_objects  [get_files {{C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.srcs/utils_1/imports/synth_1/csa_8.dcp}}] -no_script -reset -force -quiet
+remove_files  -fileset utils_1 {{C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.srcs/utils_1/imports/synth_1/csa_8.dcp}}
+file delete -force {C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.srcs/utils_1/imports/synth_1/csa_8.dcp}
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sun Oct 27 12:47:48 2024] Launched synth_1...
+Run output will be captured here: C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.runs/synth_1/runme.log
+[Sun Oct 27 12:47:48 2024] Launched impl_1...
+Run output will be captured here: C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sun Oct 27 12:49:07 2024] Launched synth_1...
+Run output will be captured here: C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.runs/synth_1/runme.log
+[Sun Oct 27 12:49:07 2024] Launched impl_1...
+Run output will be captured here: C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sun Oct 27 12:50:09 2024] Launched synth_1...
+Run output will be captured here: C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.runs/synth_1/runme.log
+[Sun Oct 27 12:50:09 2024] Launched impl_1...
+Run output will be captured here: C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sun Oct 27 12:50:37 2024] Launched synth_1...
+Run output will be captured here: C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.runs/synth_1/runme.log
+[Sun Oct 27 12:50:37 2024] Launched impl_1...
+Run output will be captured here: C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.runs/impl_1/runme.log
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sun Oct 27 13:06:07 2024] Launched synth_1...
+Run output will be captured here: C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.runs/synth_1/runme.log
+[Sun Oct 27 13:06:07 2024] Launched impl_1...
+Run output will be captured here: C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.runs/impl_1/runme.log
+reset_run impl_1 -prev_step 
+update_compile_order -fileset sources_1
+reset_run synth_1
+INFO: [Project 1-1160] Copying file C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.runs/synth_1/addsub_4.dcp to C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.srcs/utils_1/imports/synth_1 and adding it to utils fileset
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sun Oct 27 13:08:09 2024] Launched synth_1...
+Run output will be captured here: C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.runs/synth_1/runme.log
+[Sun Oct 27 13:08:09 2024] Launched impl_1...
+Run output will be captured here: C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sun Oct 27 13:09:19 2024] Launched synth_1...
+Run output will be captured here: C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.runs/synth_1/runme.log
+[Sun Oct 27 13:09:19 2024] Launched impl_1...
+Run output will be captured here: C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.runs/impl_1/runme.log
+reset_run synth_1
+update_compile_order -fileset sources_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sun Oct 27 13:10:17 2024] Launched synth_1...
+Run output will be captured here: C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.runs/synth_1/runme.log
+[Sun Oct 27 13:10:18 2024] Launched impl_1...
+Run output will be captured here: C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.runs/impl_1/runme.log
+export_ip_user_files -of_objects  [get_files {{C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.srcs/utils_1/imports/synth_1/addsub_4.dcp}}] -no_script -reset -force -quiet
+remove_files  -fileset utils_1 {{C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.srcs/utils_1/imports/synth_1/addsub_4.dcp}}
+file delete -force {C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.srcs/utils_1/imports/synth_1/addsub_4.dcp}
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sun Oct 27 13:10:46 2024] Launched synth_1...
+Run output will be captured here: C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.runs/synth_1/runme.log
+[Sun Oct 27 13:10:46 2024] Launched impl_1...
+Run output will be captured here: C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.runs/impl_1/runme.log
+close_project
+open_project {C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.xpr}
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.1/data/ip'.
+update_compile_order -fileset sources_1
+reset_run synth_1
+INFO: [Project 1-1160] Copying file C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.runs/synth_1/addsub_4.dcp to C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.srcs/utils_1/imports/synth_1 and adding it to utils fileset
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sun Oct 27 13:12:43 2024] Launched synth_1...
+Run output will be captured here: C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.runs/synth_1/runme.log
+[Sun Oct 27 13:12:43 2024] Launched impl_1...
+Run output will be captured here: C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.runs/impl_1/runme.log
+export_ip_user_files -of_objects  [get_files {{C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.srcs/utils_1/imports/synth_1/addsub_4.dcp}}] -no_script -reset -force -quiet
+remove_files  -fileset utils_1 {{C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.srcs/utils_1/imports/synth_1/addsub_4.dcp}}
+file delete -force {C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.srcs/utils_1/imports/synth_1/addsub_4.dcp}
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sun Oct 27 13:13:08 2024] Launched synth_1...
+Run output will be captured here: C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.runs/synth_1/runme.log
+[Sun Oct 27 13:13:08 2024] Launched impl_1...
+Run output will be captured here: C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.runs/impl_1/runme.log
+set_property is_enabled false [get_files  {{C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.srcs/constrs_1/new/lab6.xdc}}]
+reset_run synth_1
+INFO: [Project 1-1160] Copying file C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.runs/synth_1/addsub_4.dcp to C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.srcs/utils_1/imports/synth_1 and adding it to utils fileset
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sun Oct 27 13:16:02 2024] Launched synth_1...
+Run output will be captured here: C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.runs/synth_1/runme.log
+[Sun Oct 27 13:16:02 2024] Launched impl_1...
+Run output will be captured here: C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.runs/impl_1/runme.log
+export_ip_user_files -of_objects  [get_files {{C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.srcs/utils_1/imports/synth_1/addsub_4.dcp}}] -no_script -reset -force -quiet
+remove_files  -fileset utils_1 {{C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.srcs/utils_1/imports/synth_1/addsub_4.dcp}}
+file delete -force {C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.srcs/utils_1/imports/synth_1/addsub_4.dcp}
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sun Oct 27 13:16:48 2024] Launched synth_1...
+Run output will be captured here: C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.runs/synth_1/runme.log
+[Sun Oct 27 13:16:48 2024] Launched impl_1...
+Run output will be captured here: C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1553.457 ; gain = 0.000
+INFO: [Project 1-479] Netlist was created with Vivado 2022.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF Files: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.022 . Memory (MB): peak = 2191.602 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.022 . Memory (MB): peak = 2191.602 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2191.602 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:19 ; elapsed = 00:00:13 . Memory (MB): peak = 2349.039 ; gain = 1126.645
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2022.1
+  **** Build date : Apr 18 2022 at 16:02:36
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2022.1.0
+  ****** Build date   : Apr 12 2022-21:12:08
+    **** Build number : 2022.1.1649790728
+      ** Copyright 2017-2024 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:02 ; elapsed = 00:00:21 . Memory (MB): peak = 2360.598 ; gain = 3.602
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183AA117EA
+open_hw_target: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 4436.727 ; gain = 2076.129
+set_property PROGRAM.FILE {C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.runs/impl_1/addsub_4.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.runs/impl_1/addsub_4.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw_manager
+reset_run synth_1
+INFO: [Project 1-1160] Copying file C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.runs/synth_1/addsub_4.dcp to C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.srcs/utils_1/imports/synth_1 and adding it to utils fileset
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sun Oct 27 13:22:25 2024] Launched synth_1...
+Run output will be captured here: C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.runs/synth_1/runme.log
+[Sun Oct 27 13:22:26 2024] Launched impl_1...
+Run output will be captured here: C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.runs/impl_1/runme.log
+export_ip_user_files -of_objects  [get_files {{C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.srcs/utils_1/imports/synth_1/addsub_4.dcp}}] -no_script -reset -force -quiet
+remove_files  -fileset utils_1 {{C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.srcs/utils_1/imports/synth_1/addsub_4.dcp}}
+file delete -force {C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.srcs/utils_1/imports/synth_1/addsub_4.dcp}
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sun Oct 27 13:22:56 2024] Launched synth_1...
+Run output will be captured here: C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.runs/synth_1/runme.log
+[Sun Oct 27 13:22:56 2024] Launched impl_1...
+Run output will be captured here: C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2022.1
+  **** Build date : Apr 18 2022 at 16:02:36
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2022.1.0
+  ****** Build date   : Apr 12 2022-21:12:08
+    **** Build number : 2022.1.1649790728
+      ** Copyright 2017-2024 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:21 . Memory (MB): peak = 4484.086 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183AA117EA
+set_property PROGRAM.FILE {C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.runs/impl_1/addsub_4.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.runs/impl_1/addsub_4.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+INFO: [Project 1-1160] Copying file C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.runs/synth_1/addsub_4.dcp to C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.srcs/utils_1/imports/synth_1 and adding it to utils fileset
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sun Oct 27 13:27:14 2024] Launched synth_1...
+Run output will be captured here: C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.runs/synth_1/runme.log
+[Sun Oct 27 13:27:14 2024] Launched impl_1...
+Run output will be captured here: C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.runs/impl_1/runme.log
+close_hw_manager
+export_ip_user_files -of_objects  [get_files {{C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.srcs/utils_1/imports/synth_1/addsub_4.dcp}}] -no_script -reset -force -quiet
+remove_files  -fileset utils_1 {{C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.srcs/utils_1/imports/synth_1/addsub_4.dcp}}
+file delete -force {C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.srcs/utils_1/imports/synth_1/addsub_4.dcp}
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sun Oct 27 13:27:45 2024] Launched synth_1...
+Run output will be captured here: C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.runs/synth_1/runme.log
+[Sun Oct 27 13:27:45 2024] Launched impl_1...
+Run output will be captured here: C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2022.1
+  **** Build date : Apr 18 2022 at 16:02:36
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2022.1.0
+  ****** Build date   : Apr 12 2022-21:12:08
+    **** Build number : 2022.1.1649790728
+      ** Copyright 2017-2024 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:02 ; elapsed = 00:00:21 . Memory (MB): peak = 4506.188 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183AA117EA
+set_property PROGRAM.FILE {C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.runs/impl_1/addsub_4.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.runs/impl_1/addsub_4.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw_manager
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2022.1
+  **** Build date : Apr 18 2022 at 16:02:36
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2022.1.0
+  ****** Build date   : Apr 12 2022-21:12:08
+    **** Build number : 2022.1.1649790728
+      ** Copyright 2017-2024 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:21 . Memory (MB): peak = 4506.723 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183AA117EA
+set_property PROGRAM.FILE {C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.runs/impl_1/addsub_4.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/emanessam26/Desktop/verilog/lab 6/lab 6.runs/impl_1/addsub_4.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Oct 27 14:16:48 2024...

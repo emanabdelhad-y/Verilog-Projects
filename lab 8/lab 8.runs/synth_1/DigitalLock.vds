@@ -1,0 +1,294 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Tue Nov 26 20:29:57 2024
+# Process ID: 33572
+# Current directory: C:/Users/emanessam26/Desktop/verilog/lab 8/lab 8.runs/synth_1
+# Command line: vivado.exe -log DigitalLock.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source DigitalLock.tcl
+# Log file: C:/Users/emanessam26/Desktop/verilog/lab 8/lab 8.runs/synth_1/DigitalLock.vds
+# Journal file: C:/Users/emanessam26/Desktop/verilog/lab 8/lab 8.runs/synth_1\vivado.jou
+# Running On: CSE-P07-2168-47, OS: Windows, CPU Frequency: 3696 MHz, CPU Physical cores: 8, Host memory: 34020 MB
+#-----------------------------------------------------------
+source DigitalLock.tcl -notrace
+Command: synth_design -top DigitalLock -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 16280
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1285.023 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'DigitalLock' [C:/Users/emanessam26/Desktop/verilog/lab 8/lab 8.srcs/sources_1/new/DigitalLock.v:3]
+INFO: [Synth 8-6157] synthesizing module 'clockDivider' [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/sources_1/new/ClockDivider.v:23]
+	Parameter n bound to: 1000000 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'counterModN' [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/sources_1/new/BinaryCounter.v:23]
+	Parameter x bound to: 32 - type: integer 
+	Parameter n bound to: 1000000 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'counterModN' (0#1) [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/sources_1/new/BinaryCounter.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'clockDivider' (0#1) [C:/Users/emanessam26/Desktop/verilog/lab 7/lab 7.srcs/sources_1/new/ClockDivider.v:23]
+INFO: [Synth 8-6157] synthesizing module 'pushbuttonDetector' [C:/Users/emanessam26/Desktop/verilog/lab 8/lab 8.srcs/sources_1/new/pushbuttonDetector.v:23]
+INFO: [Synth 8-6157] synthesizing module 'debouncer' [C:/Users/emanessam26/Desktop/verilog/lab 8/lab 8.srcs/sources_1/new/debouncer.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'debouncer' (0#1) [C:/Users/emanessam26/Desktop/verilog/lab 8/lab 8.srcs/sources_1/new/debouncer.v:23]
+INFO: [Synth 8-6157] synthesizing module 'synchronizerCircuit' [C:/Users/emanessam26/Desktop/verilog/synchronizerCircuit.v:24]
+INFO: [Synth 8-6157] synthesizing module 'DFF' [C:/Users/emanessam26/Desktop/verilog/DFF.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'DFF' (0#1) [C:/Users/emanessam26/Desktop/verilog/DFF.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'synchronizerCircuit' (0#1) [C:/Users/emanessam26/Desktop/verilog/synchronizerCircuit.v:24]
+INFO: [Synth 8-6157] synthesizing module 'risingEdge' [C:/Users/emanessam26/Desktop/verilog/lab 8/lab 8.srcs/sources_1/new/risingEdge.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/emanessam26/Desktop/verilog/lab 8/lab 8.srcs/sources_1/new/risingEdge.v:29]
+INFO: [Synth 8-6155] done synthesizing module 'risingEdge' (0#1) [C:/Users/emanessam26/Desktop/verilog/lab 8/lab 8.srcs/sources_1/new/risingEdge.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'pushbuttonDetector' (0#1) [C:/Users/emanessam26/Desktop/verilog/lab 8/lab 8.srcs/sources_1/new/pushbuttonDetector.v:23]
+WARNING: [Synth 8-567] referenced signal 'y' should be on the sensitivity list [C:/Users/emanessam26/Desktop/verilog/lab 8/lab 8.srcs/sources_1/new/DigitalLock.v:31]
+INFO: [Synth 8-6155] done synthesizing module 'DigitalLock' (0#1) [C:/Users/emanessam26/Desktop/verilog/lab 8/lab 8.srcs/sources_1/new/DigitalLock.v:3]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1285.023 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1285.023 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1285.023 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1285.023 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/emanessam26/Desktop/verilog/lab 8/lab 8.srcs/constrs_1/new/digitalLockConstraint.xdc]
+Finished Parsing XDC File [C:/Users/emanessam26/Desktop/verilog/lab 8/lab 8.srcs/constrs_1/new/digitalLockConstraint.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/emanessam26/Desktop/verilog/lab 8/lab 8.srcs/constrs_1/new/digitalLockConstraint.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/DigitalLock_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/DigitalLock_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/Users/emanessam26/Desktop/verilog/lab 8/lab 8.srcs/constrs_1/new/DigitalLock2_constraint.xdc]
+WARNING: [Vivado 12-584] No ports matched 'X'. [C:/Users/emanessam26/Desktop/verilog/lab 8/lab 8.srcs/constrs_1/new/DigitalLock2_constraint.xdc:8]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/emanessam26/Desktop/verilog/lab 8/lab 8.srcs/constrs_1/new/DigitalLock2_constraint.xdc:8]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'X'. [C:/Users/emanessam26/Desktop/verilog/lab 8/lab 8.srcs/constrs_1/new/DigitalLock2_constraint.xdc:9]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/emanessam26/Desktop/verilog/lab 8/lab 8.srcs/constrs_1/new/DigitalLock2_constraint.xdc:9]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Y'. [C:/Users/emanessam26/Desktop/verilog/lab 8/lab 8.srcs/constrs_1/new/DigitalLock2_constraint.xdc:11]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/emanessam26/Desktop/verilog/lab 8/lab 8.srcs/constrs_1/new/DigitalLock2_constraint.xdc:11]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Y'. [C:/Users/emanessam26/Desktop/verilog/lab 8/lab 8.srcs/constrs_1/new/DigitalLock2_constraint.xdc:12]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/emanessam26/Desktop/verilog/lab 8/lab 8.srcs/constrs_1/new/DigitalLock2_constraint.xdc:12]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/emanessam26/Desktop/verilog/lab 8/lab 8.srcs/constrs_1/new/DigitalLock2_constraint.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/emanessam26/Desktop/verilog/lab 8/lab 8.srcs/constrs_1/new/DigitalLock2_constraint.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/DigitalLock_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/DigitalLock_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1300.617 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1300.617 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1300.617 ; gain = 15.594
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1300.617 ; gain = 15.594
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1300.617 ; gain = 15.594
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'risingEdge'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'DigitalLock'
+WARNING: [Synth 8-327] inferring latch for variable 'FSM_sequential_nextState_reg' [C:/Users/emanessam26/Desktop/verilog/lab 8/lab 8.srcs/sources_1/new/risingEdge.v:30]
+WARNING: [Synth 8-327] inferring latch for variable 'FSM_onehot_nextState_reg' [C:/Users/emanessam26/Desktop/verilog/lab 8/lab 8.srcs/sources_1/new/risingEdge.v:30]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                       A |                              001 |                               00
+                       B |                              010 |                               01
+                       C |                              100 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'risingEdge'
+WARNING: [Synth 8-327] inferring latch for variable 'FSM_onehot_nextState_reg' [C:/Users/emanessam26/Desktop/verilog/lab 8/lab 8.srcs/sources_1/new/risingEdge.v:30]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                   RESET |                              000 |                             0000
+                       A |                              001 |                             0001
+                       C |                              010 |                             0010
+                       D |                              011 |                             0100
+                       B |                              100 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'DigitalLock'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1300.617 ; gain = 15.594
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 21    
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 1     
+	   2 Input    7 Bit        Muxes := 1     
+	   3 Input    3 Bit        Muxes := 4     
+	   2 Input    3 Bit        Muxes := 18    
+	   5 Input    3 Bit        Muxes := 1     
+	   3 Input    1 Bit        Muxes := 8     
+	   2 Input    1 Bit        Muxes := 2     
+	   5 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3917] design DigitalLock has port segments[6] driven by constant 1
+WARNING: [Synth 8-3917] design DigitalLock has port segments[5] driven by constant 0
+WARNING: [Synth 8-3917] design DigitalLock has port segments[4] driven by constant 0
+WARNING: [Synth 8-3917] design DigitalLock has port segments[3] driven by constant 0
+WARNING: [Synth 8-3917] design DigitalLock has port segments[0] driven by constant 1
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1300.617 ; gain = 15.594
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 1300.617 ; gain = 15.594
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1300.617 ; gain = 15.594
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1300.617 ; gain = 15.594
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 1300.617 ; gain = 15.594
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 1300.617 ; gain = 15.594
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 1300.617 ; gain = 15.594
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 1300.617 ; gain = 15.594
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 1300.617 ; gain = 15.594
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 1300.617 ; gain = 15.594
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     2|
+|2     |CARRY4 |     8|
+|3     |LUT1   |     1|
+|4     |LUT2   |     6|
+|5     |LUT3   |    10|
+|6     |LUT4   |    13|
+|7     |LUT5   |    37|
+|8     |LUT6   |     4|
+|9     |FDCE   |    48|
+|10    |FDRE   |    16|
+|11    |FDSE   |     4|
+|12    |LD     |    12|
+|13    |IBUF   |     6|
+|14    |OBUF   |     7|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 1300.617 ; gain = 15.594
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 9 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:19 ; elapsed = 00:00:26 . Memory (MB): peak = 1300.617 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1300.617 ; gain = 15.594
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1300.617 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 20 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1300.617 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 12 instances were transformed.
+  LD => LDCE: 12 instances
+
+Synth Design complete, checksum: c05271fa
+INFO: [Common 17-83] Releasing license: Synthesis
+37 Infos, 14 Warnings, 4 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:31 ; elapsed = 00:00:37 . Memory (MB): peak = 1300.617 ; gain = 15.594
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+INFO: [Common 17-1381] The checkpoint 'C:/Users/emanessam26/Desktop/verilog/lab 8/lab 8.runs/synth_1/DigitalLock.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file DigitalLock_utilization_synth.rpt -pb DigitalLock_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Nov 26 20:30:41 2024...
